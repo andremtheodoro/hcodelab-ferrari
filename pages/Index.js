@@ -1,10 +1,19 @@
+import CssBaseline from '@material-ui/core/CssBaseline'
+import Head from 'next/head'
 import Header from '../components/Header'
+import FullBanner from '../components/FullBanner'
+
 
 export default function Index(){
     return (
-        <div>
+        <>
+            <Head>
+                <title>HacodeLab</title>
+                <link rel="shortcut icon" href="/images/favicon.png" />
+            </Head>
+            <CssBaseline />
             <Header />
-            <h1>Estou na index</h1>
-       </div>
-     )
-} 
+            <FullBanner />
+        </>
+    )
+}

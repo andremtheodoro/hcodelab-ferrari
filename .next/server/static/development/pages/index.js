@@ -115,6 +115,117 @@ module.exports = require("next/dist/next-server/lib/utils.js");
 
 /***/ }),
 
+/***/ "./components/FullBanner.js":
+/*!**********************************!*\
+  !*** ./components/FullBanner.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return FullBanner; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _FullBanner_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FullBanner.module.css */ "./components/FullBanner.module.css");
+/* harmony import */ var _FullBanner_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_FullBanner_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core */ "@material-ui/core");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\Andre\\Desktop\\projetos\\hcodelab\\components\\FullBanner.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+function FullBanner() {
+  return (
+    /* JSX - sintaxe semelhente HTML */
+    __jsx("div", {
+      className: _FullBanner_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.destak,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7,
+        columnNumber: 9
+      }
+    }, __jsx("div", {
+      className: _FullBanner_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.destakText,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 14
+      }
+    }, __jsx("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9,
+        columnNumber: 18
+      }
+    }, __jsx("span", {
+      className: _FullBanner_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.hashtag,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10,
+        columnNumber: 23
+      }
+    }, "#3.9 L V8"), __jsx("span", {
+      className: _FullBanner_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.hashtag,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11,
+        columnNumber: 23
+      }
+    }, "#720HP"), __jsx("span", {
+      className: _FullBanner_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.hashtag,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12,
+        columnNumber: 23
+      }
+    }, "$2mi")), __jsx("h1", {
+      className: _FullBanner_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.h1,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 18
+      }
+    }, "SF90 Stradale"), __jsx("button", {
+      className: _FullBanner_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.btnDetail,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 18
+      }
+    }, "Detalhes")))
+  );
+}
+
+/***/ }),
+
+/***/ "./components/FullBanner.module.css":
+/*!******************************************!*\
+  !*** ./components/FullBanner.module.css ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Exports
+module.exports = {
+	"destak": "FullBanner_destak__IV12C",
+	"destakText": "FullBanner_destakText__yU2dG",
+	"hashtag": "FullBanner_hashtag__1s1AM",
+	"h1": "FullBanner_h1__2tY-L",
+	"btnDetail": "FullBanner_btnDetail__1pEQR"
+};
+
+/***/ }),
+
 /***/ "./components/Header.js":
 /*!******************************!*\
   !*** ./components/Header.js ***!
@@ -128,27 +239,93 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Menu */ "./components/Menu.js");
+/* harmony import */ var _Header_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header.module.css */ "./components/Header.module.css");
+/* harmony import */ var _Header_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Header_module_css__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "C:\\Users\\Andre\\Desktop\\projetos\\hcodelab\\components\\Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
+
 function Header() {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("h1", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 13
-    }
-  }, "Estou no Header"), __jsx(_Menu__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("header", {
+    className: _Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.topSite,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7,
-      columnNumber: 13
+      columnNumber: 12
+    }
+  }, __jsx("img", {
+    src: "/images/ferrari-logo.svg",
+    className: _Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.logo,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 16
+    }
+  }), __jsx(_Menu__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 17
+    }
+  }), __jsx("button", {
+    className: _Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.btnRegister,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 17
+    }
+  }, "Registre-se / Login")), __jsx("div", {
+    className: `${_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.flag} ${_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.green}`,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 1
+    }
+  }), __jsx("div", {
+    className: `${_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.flag} ${_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.white}`,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 1
+    }
+  }), __jsx("div", {
+    className: `${_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.flag} ${_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.red}`,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 1
     }
   }));
 }
+
+/***/ }),
+
+/***/ "./components/Header.module.css":
+/*!**************************************!*\
+  !*** ./components/Header.module.css ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Exports
+module.exports = {
+	"topSite": "Header_topSite__1vJ8C",
+	"log": "Header_log__2Zmk2",
+	"btnRegister": "Header_btnRegister__Q9Bcj",
+	"flag": "Header_flag__k2_At",
+	"green": "Header_green__1UVQX",
+	"white": "Header_white__307QL",
+	"red": "Header_red__103nU",
+	"logo": "Header_logo__3AsrB"
+};
 
 /***/ }),
 
@@ -217,8 +394,16 @@ const LinkMenu = itens => __jsx("li", {
 }, itens.label)));
 
 function Menu() {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("ul", {
-    className: "jsx-2771981069",
+  return __jsx("div", {
+    className: "jsx-3421017507" + " " + "headerMenu",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("ul", {
+    className: "jsx-3421017507",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -233,19 +418,12 @@ function Menu() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
-      columnNumber: 21
+      columnNumber: 22
     }
-  })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "2771981069",
+  }))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "3421017507",
     __self: this
-  }, "li{list-style:none;}@media (min-width:320px){li{width:100%;line-height:40px;backgroud:rgba(230,228,224,0.85);display:block;padding-left:5%;}a{-webkit-text-decoration:none;text-decoration:none;color:#707070;font-size:1.5em;font-family:'open Sans';}}@media (min-width:960px){a{font-size:1em;}li{display:inline-block;width:18%;line-height:75px;text-align:center;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcQW5kcmVcXERlc2t0b3BcXHByb2pldG9zXFxoY29kZWxhYlxcY29tcG9uZW50c1xcTWVudS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF3Qm1DLEFBR3lDLEFBSUQsQUFPUyxBQVFQLEFBR1EsV0FqQkosR0FlckIsRUFuQkosS0FzQmlCLE9BakIyQixHQWtCbkIsaUJBQ0MsRUFiSixXQUxBLEdBTUMsRUFhbkIsU0FsQm9CLEtBTU8sV0FMM0IsYUFNQSIsImZpbGUiOiJDOlxcVXNlcnNcXEFuZHJlXFxEZXNrdG9wXFxwcm9qZXRvc1xcaGNvZGVsYWJcXGNvbXBvbmVudHNcXE1lbnUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXHJcblxyXG5jb25zdCBMaW5rSXRlbSA9IFtcclxuICAgIHtpZDoxLCBsaW5rOicvJyxsYWJlbDonSG9tZSd9LFxyXG4gICAge2lkOjIsIGxpbms6Jy9oaXN0b3JpYScsbGFiZWw6J0hpc3RvcmlhJ30sXHJcbiAgICB7aWQ6MywgbGluazonL2dhbGVyaWEnLGxhYmVsOidHYWxlcmlhJ30sXHJcbiAgICB7aWQ6NCwgbGluazonL2NvbnRhdG8nLGxhYmVsOidDb250YXRvJ30sXHJcbl1cclxuY29uc3QgTGlua01lbnUgPSAoaXRlbnMpID0+IChcclxuXHJcbiAgICA8bGk+XHJcbiAgICAgICAgPExpbmsgaHJlZj17aXRlbnMubGlua30+XHJcbiAgICAgICAgICAgIDxhIHRpdGxlPXtpdGVucy5sYWJlbH0+e2l0ZW5zLmxhYmVsfTwvYT5cclxuICAgICAgICA8L0xpbms+XHJcbiAgICA8L2xpPlxyXG4pXHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBNZW51KCl7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDw+XHJcbiAgICAgICAgICAgIDx1bD5cclxuICAgICAgICAgICAgICAgIHtMaW5rSXRlbS5tYXAoKGl0ZW0pPT4gKFxyXG4gICAgICAgICAgICAgICAgICAgIDxMaW5rTWVudSBrZXk9e2l0ZW0uaWR9IGxpbms9e2l0ZW0ubGlua30gbGFiZWw9e2l0ZW0ubGFiZWx9IC8+XHJcbiAgICAgICAgICAgICAgKSl9XHJcbiAgICAgICAgICAgICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxyXG4gICAgICAgICAgICAgICAgICAgIGxpIHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgbGlzdC1zdHlsZTogbm9uZTtcclxuICAgICAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgICAgICAgQG1lZGlhIChtaW4td2lkdGg6IDMyMHB4KSB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGxpIHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbGluZS1oZWlnaHQ6IDQwcHg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdWQ6IHJnYmEoMjMwLCAyMjgsIDIyNCwgMC44NSk7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBibG9jaztcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmctbGVmdDogNSU7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAgICAgICAgICAgYXtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjpub25lO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6ICM3MDcwNzA7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6MS41ZW07XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseTonb3BlbiBTYW5zJztcclxuICAgICAgICAgICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAgICAgICBAbWVkaWEgKG1pbi13aWR0aDogOTYwcHgpIHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgYSB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6MWVtO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGxpIHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOjE4JTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiA3NXB4O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgICAgICA8L3VsPlxyXG4gICAgICAgICAgICAgPE1lbnUgLz5cclxuICAgICAgICA8Lz5cclxuICAgIClcclxufSAgXHJcbiAgICBcclxuXHJcblxyXG4iXX0= */\n/*@ sourceURL=C:\\\\Users\\\\Andre\\\\Desktop\\\\projetos\\\\hcodelab\\\\components\\\\Menu.js */")), __jsx(Menu, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 14
-    }
-  }));
+  }, "li{list-style:none;}@media (min-width:320px){.headerMenu{width:100%;position:relative;}ul{width:90%;height:100vh;background:rgba(230,228,224,0.85 );position:absolute;right:0;z-index:10;margin:0;padding:0;top:72px;-webkit-transition-duration:1s;transition-duration:1s;}li{width:100%;line-height:40px;backgroud:rgba(230,228,224,0.85);display:block;padding-left:5%;}a{-webkit-text-decoration:none;text-decoration:none;color:#707070;font-size:1.5em;font-family:'open Sans';}}@media (min-width:960px){ul{width:80%;height:auto;margin-left:15%;position:relative;background:none;top:0;}a{font-size:1em;}li{display:inline-block;width:18%;line-height:75px;text-align:center;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcQW5kcmVcXERlc2t0b3BcXHByb2pldG9zXFxoY29kZWxhYlxcY29tcG9uZW50c1xcTWVudS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF5QmlDLEFBR3lDLEFBSUYsQUFLQSxBQVlDLEFBT1MsQUFRVixBQVFHLEFBR1EsVUFyQ1IsQUEyQkYsQ0FoQ08sQUFpQkQsR0F1QnJCLEVBNUNKLEtBK0NpQixDQVZPLENBM0JzQixLQVlGLENBaEJ4QyxFQTBDcUIsT0FWQSxVQVdDLEVBckJKLE1BV0UsRUE1QkUsR0FZSixHQU1DLEVBcUJuQixNQVZVLEdBaEJVLENBWlIsRUE2QlosRUFYMkIsSUFqQlosT0FZZixJQVhZLFNBQ0MsQUFnQmIsVUFmYSxTQUNjLHNEQUMzQiIsImZpbGUiOiJDOlxcVXNlcnNcXEFuZHJlXFxEZXNrdG9wXFxwcm9qZXRvc1xcaGNvZGVsYWJcXGNvbXBvbmVudHNcXE1lbnUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXHJcblxyXG5jb25zdCBMaW5rSXRlbSA9IFtcclxuICAgIHtpZDoxLCBsaW5rOicvJyxsYWJlbDonSG9tZSd9LFxyXG4gICAge2lkOjIsIGxpbms6Jy9oaXN0b3JpYScsbGFiZWw6J0hpc3RvcmlhJ30sXHJcbiAgICB7aWQ6MywgbGluazonL2dhbGVyaWEnLGxhYmVsOidHYWxlcmlhJ30sXHJcbiAgICB7aWQ6NCwgbGluazonL2NvbnRhdG8nLGxhYmVsOidDb250YXRvJ30sXHJcbl1cclxuY29uc3QgTGlua01lbnUgPSAoaXRlbnMpID0+IChcclxuXHJcbiAgICA8bGk+XHJcbiAgICAgICAgPExpbmsgaHJlZj17aXRlbnMubGlua30+XHJcbiAgICAgICAgICAgIDxhIHRpdGxlPXtpdGVucy5sYWJlbH0+e2l0ZW5zLmxhYmVsfTwvYT5cclxuICAgICAgICA8L0xpbms+XHJcbiAgICA8L2xpPlxyXG4pXHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBNZW51KCl7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaGVhZGVyTWVudVwiPlxyXG4gICAgICAgICAgICA8dWw+XHJcbiAgICAgICAgICAgICAgICAgICAgIHtMaW5rSXRlbS5tYXAoKGl0ZW0pPT4gKFxyXG4gICAgICAgICAgICAgICAgICAgICA8TGlua01lbnUga2V5PXtpdGVtLmlkfSBsaW5rPXtpdGVtLmxpbmt9IGxhYmVsPXtpdGVtLmxhYmVsfSAvPlxyXG4gICAgICAgICAgICAgICkpfVxyXG4gICAgICAgICAgICAgIDwvdWw+XHJcbiAgICAgICAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcclxuICAgICAgICAgICAgICAgICAgICBsaSB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGxpc3Qtc3R5bGU6IG5vbmU7XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgICAgIEBtZWRpYSAobWluLXdpZHRoOiAzMjBweCkge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAuaGVhZGVyTWVudSB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDoxMDAlO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLy9vdmVyZmxvdzogaGlkZGVuO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHVsIHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiA5MCU7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDEwMHZoO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogcmdiYSgyMzAsIDIyOCwgMjI0LCAwLjg1ICk7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICByaWdodDogMDsgICBcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHotaW5kZXg6IDEwO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luOjA7ICAgXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOjA7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0b3A6IDcycHg7ICBcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zaXRpb24tZHVyYXRpb246IDFzO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICB9ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgICAgICAgICAgbGkge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsaW5lLWhlaWdodDogNDBweDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91ZDogcmdiYSgyMzAsIDIyOCwgMjI0LCAwLjg1KTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZy1sZWZ0OiA1JTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBhe1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOm5vbmU7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogIzcwNzA3MDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtc2l6ZToxLjVlbTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OidvcGVuIFNhbnMnO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgICAgIEBtZWRpYSAobWluLXdpZHRoOiA5NjBweCkge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICB1bHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiA4MCU7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6YXV0bztcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1sZWZ0OiAxNSU7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjpyZWxhdGl2ZTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IG5vbmU7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0b3A6IDA7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAgICAgICAgICAgYSB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6MWVtO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGxpIHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOjE4JTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiA3NXB4O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICBcclxuICAgIClcclxufSAgXHJcbiAgICBcclxuXHJcblxyXG4iXX0= */\n/*@ sourceURL=C:\\\\Users\\\\Andre\\\\Desktop\\\\projetos\\\\hcodelab\\\\components\\\\Menu.js */"));
 }
 
 /***/ }),
@@ -1931,34 +2109,65 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
+/* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/CssBaseline */ "@material-ui/core/CssBaseline");
+/* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
+/* harmony import */ var _components_FullBanner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/FullBanner */ "./components/FullBanner.js");
 var _jsxFileName = "C:\\Users\\Andre\\Desktop\\projetos\\hcodelab\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
+
+
+
 function Index() {
-  return __jsx("div", {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 9
-    }
-  }, __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 10,
       columnNumber: 13
     }
-  }), __jsx("h1", {
+  }, __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 11,
+      columnNumber: 17
+    }
+  }, "HacodeLab"), __jsx("link", {
+    rel: "shortcut icon",
+    href: "/images/favicon.png",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 17
+    }
+  })), __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
       columnNumber: 13
     }
-  }, "Estou na index"));
+  }), __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 13
+    }
+  }), __jsx(_components_FullBanner__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 13
+    }
+  }));
 }
 
 /***/ }),
@@ -1972,6 +2181,39 @@ function Index() {
 
 module.exports = __webpack_require__(/*! C:\Users\Andre\Desktop\projetos\hcodelab\pages\index.js */"./pages/index.js");
 
+
+/***/ }),
+
+/***/ "@material-ui/core":
+/*!************************************!*\
+  !*** external "@material-ui/core" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core");
+
+/***/ }),
+
+/***/ "@material-ui/core/CssBaseline":
+/*!************************************************!*\
+  !*** external "@material-ui/core/CssBaseline" ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/CssBaseline");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 
